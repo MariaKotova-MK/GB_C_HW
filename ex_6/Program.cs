@@ -6,4 +6,4 @@ if (r==0)
     {Console.WriteLine("Число четное");
 
     }
-else Console.WriteLine("Число не четное");
+else Console.WriteLine("Число нечетное");
