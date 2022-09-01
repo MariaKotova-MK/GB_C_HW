@@ -9,14 +9,12 @@ int z = Convert.ToInt32(Console.ReadLine());
 
 int max = x;
 
-if (max>y)
+if (y>max)
 {
-    if (max>z)
-    Console.WriteLine("Максимальное число " +max);
+    max=y;
 }
-else max = y;
-if (max>z)
+else if (z>max)
 {
-    Console.WriteLine("Максимальное число " +max);
+   max=z;
 }
-else Console.WriteLine("Максимальное число " +z);
+Console.WriteLine("Максимальное число " +max);
