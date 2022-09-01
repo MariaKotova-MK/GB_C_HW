@@ -13,8 +13,10 @@ if (y>max)
 {
     max=y;
 }
-else if (z>max)
+else max=x;
+if (z>max)
 {
-   max=z;
+max=z;
 }
+else max=y;
 Console.WriteLine("Максимальное число " +max);
