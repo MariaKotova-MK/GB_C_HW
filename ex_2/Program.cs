@@ -1,8 +1,8 @@
 ﻿// See https://aka.ms/new-console-template for more information
 
-Console.WriteLine("Введите первое число");
+Console.WriteLine("Введите первое целое число");
 int a = Convert.ToInt32(Console.ReadLine());
-Console.WriteLine("Введите второe число");
+Console.WriteLine("Введите второe целое число");
 int b = Convert.ToInt32(Console.ReadLine());
     if (a>b) 
     {
