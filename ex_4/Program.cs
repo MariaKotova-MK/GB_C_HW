@@ -1,10 +1,10 @@
 ﻿// See https://aka.ms/new-console-template for more information
 
-Console.WriteLine("Введите 1 целое число");
+Console.WriteLine("Введите первое целое число");
 int x = Convert.ToInt32(Console.ReadLine());
-Console.WriteLine("Введите 2 целое число");
+Console.WriteLine("Введите второе целое число");
 int y = Convert.ToInt32(Console.ReadLine());
-Console.WriteLine("Введите 3 целое число");
+Console.WriteLine("Введите третье целое число");
 int z = Convert.ToInt32(Console.ReadLine());
 
 int max = x;
